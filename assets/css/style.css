@@ -2,24 +2,31 @@
 }
 
 body { 
-    font-size: 18px;
+    background-color: lightgrey;
+    font-size: 20px;
     line-height: 34px;
     font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
 color: #777;
 }
-
+/*This sets up anchors to not be underlined, and for text to change to yellow on mouse hover  */
 a { text-decoration: none;
 }
 
+a:hover {
+    color: yellow;
+}
+
+}
+
 h1, h2, h3, p {
-    margin-bottom 20px;
+    margin-bottom: 20px;
 }
 p:last-child {
     margin-bottom: 0;
 }
 
 h1, h2, h3 {
-    font-family: 'Georgia',Times,Times new roman, serif;
+    font-family: 'Georgia',Times,"Times New Roman", serif;
     font-weight: 700;
     color: #4daaa5;
 }
@@ -46,14 +53,16 @@ h2, h3 {
 /*header*/
 
 #mainhead {
+    position: fixed;
+    margin: 0 0 30px 0;
+    width: 100%;
     background: #fff;
-    margin: 0 0 30px;
-    z-index: 99;
+    z-index: 3;
     color: #fff;
     overflow: auto;
     border-bottom: 2px solid #ccc;
-    position: fixed;
-    width: 100%;
+    padding: 15px;
+    
 }
 
 #logo {
@@ -80,7 +89,7 @@ nav a {
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
-    border-left: 1 px solid #efefef;
+    border-left: 2px solid #efefef;
     padding-left: 15px;
     line-height: 18px;
 }
@@ -90,7 +99,23 @@ nav a:first-child {
 }
 /*Main*/
 #maincontainer {
-    padding-top: 130px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    Height: Auto;
+    Width: 650px;
+    background-color: white;
+    Padding: 15px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 150px;
+    left: 720px;
+    Width: 270px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
 }
 
 .infoblock {
@@ -105,8 +130,20 @@ nav a:first-child {
 
 .myimage {
     width: 200px;
-    height: auto;
+    height: 295px;
     margin-top: 10px;
+    Margin-left: 10px;
     float: left;
     margin-right: 25px;
+}
+footer {
+    position: relative;
+    bottom: -2200px;
+    background-color:darkgray;
+    color: white;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    border-top: 4px solid #4daaa5;
+    line-height: 90px;
 }

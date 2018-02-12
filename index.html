@@ -8,8 +8,10 @@
     <link rel="stylesheet" type = "text/css" href="assets/css/style.css" />
 </head>
 
-<Body>
-    <Header id="mainhead">
+<body>
+    <!--This is the fixed Navigation header used across all pages-->
+
+    <header id="mainhead">
         <div class="container">
              <a href="index.html" id="logo">Matthew Roskam</a>
             <nav>
@@ -18,23 +20,26 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
-    </Header>
-
-    <div id="maincontainer" class="container">
-        <Section class="infoblock">
-            <h2>About Me</h2>
+    </header>
+    <!-- This houses the main content on all pages-->
+    <div>
+        <div id="maincontainer" class="container">
+            <Section>
+                <h2>About Me</h2>
+            </Section>
+            <hr />
             <img src="assets/images/profilepic.jpg" class="myimage" alt="Picture of me" />
             <p>
-                I was born in Wisconsin, raised in Alabama, and live in Florida.
+                I was born in Wisconsin, raised in Alabama, lived in Georgia, and currently reside in Florida.
                 I enjoy writing, coding, and playing board games. I have a great family
-                that is super supportive, and lots of fun to be with.
+                that is super-supportive, and lots of fun to be around.
             </p>
             <p>
                 I believe that communication of any kind should be clear, interesting, and compelling.
-                Anything less is laziness on the part of the communicator.  There is too much
-                that is interesting in this world to ever be boring.
+                Anything less is laziness on the part of the communicator.  Everything can be 
+                conveyed in an exciting way with enough imagination and passion.
             </p>
-        </Section>
+       </div> 
 
         <Section class="sidebar">
             <Div id="Connect">
@@ -44,13 +49,15 @@
                 <img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" />
             </Div>
         </Section>
-    </div>
 
+    </div>
     <footer>
-        <div class="container">
-        &copy; Copyright 2018 Matthew Roskam.  All rights reserved.
-        </div>
-    </footer>
+            <div class="container">
+            &copy; Copyright 2018 Matthew Roskam.  All rights reserved.
+            </div>
+        </footer>
+
+
 
 </Body>
 </html>

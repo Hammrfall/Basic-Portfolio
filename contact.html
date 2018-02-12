@@ -9,25 +9,27 @@
 </head>
 
 <body>
-    <Header id="mainhead">
-        <div class="container">
-                <a href="index.html" id="logo">Matthew Roskam</a>
-            <nav>
-                <a href="index.html">About me</a>
-                <a href="portfolio.html" > Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </Header>
+        <!--This is the fixed Navigation header used across all pages-->
 
+<header id="mainhead">
+    <div class="container">
+            <a href="index.html" id="logo">Matthew Roskam</a>
+        <nav>
+            <a href="index.html">About me</a>
+            <a href="portfolio.html" > Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+<div>
     <div id="maincontainer" class="container">
-        <section class="infoblock">
             <h2>Contact</h2>
+            <hr />
             <form id="contact-form">
                 <ul>
                     <li>
                         <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Anonymous" 
+                        <input type="text" name="name" id="name" placeholder="John Smith" 
                         required="required">
                     </li>
                     <li>
@@ -41,15 +43,8 @@
                     </li>
                 </ul>
                 <input type="submit" name="Submit" />
-
-
-
-
             </form>
-
-            </p>
-        </section>
-
+    </div>   
         <section class="sidebar">
             <div id="Connect">
                 <h2>Connect with Me</h2>
@@ -58,13 +53,11 @@
                 <img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" />
             </div>
         </section>
-    </div>
-
     <footer>
         <div class="container">
         &copy; Copyright 2018 Matthew Roskam.  All rights reserved.
         </div>
     </footer>
-
+</div>
 </body>
 </html>
