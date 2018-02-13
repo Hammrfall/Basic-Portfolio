@@ -2,7 +2,9 @@
 }
 
 body { 
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    background-image: url("../images/vintage-concrete.gif");
+    /* background-image: url("../assets/images/vintage-concrete.gif"); */
     font-size: 20px;
     line-height: 34px;
     font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -107,9 +109,15 @@ nav a:first-child {
     Height: Auto;
     Width: 650px;
     background-color: white;
-    Padding: 15px;
-    
+    Padding: 15px;   
 }
+
+
+#contact-form {
+padding: 15px;
+line-height: 5ch;
+}
+
 
 .sidebar {
     position: absolute;
