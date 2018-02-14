@@ -1,4 +1,5 @@
-* { box-sizing: border-box;
+* {
+     box-sizing: border-box;
 }
 
 body { 
@@ -28,7 +29,7 @@ p:last-child {
 }
 
 h1, h2 {
-    font-family: 'Georgia',Times,"Times New Roman", serif;
+    font-family: Georgia, Times,'Times New Roman', serif;
     font-weight: 700;
     color: #4daaa5;
 }
@@ -160,8 +161,41 @@ line-height: 5ch;
         left: 0;
         background-color: rgba(0, 0, 0, .5);
         color: rgb(212, 250, 0);
-    
     }
+
+  #contact-form ul {
+    margin-bottom: 25px;
+  } 
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label, input[type=text], input[type=email], textarea{
+    width: 100%;
+    display: block;
+}
+input[type=text], input[type=email], textarea{
+    height: 40px;
+    border: 1px solid #ddd;
+    padding 0 8px;
+    font-size: 15px;
+}
+
+textarea{
+    height: 200px;
+}
+input[type=submit] {
+    background-color: #4aaaaf;
+    border: 0 none;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px;
+    margin-bottom: 20px;
+    cursor: pointer; 
+    width: 100px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
 
 footer {
     Position: fixed;
