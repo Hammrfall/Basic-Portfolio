@@ -109,7 +109,8 @@ nav a:first-child {
     Height: Auto;
     Width: 650px;
     background-color: white;
-    Padding: 15px;   
+    Padding: 15px; 
+    margin-bottom: 12em;
 }
 
 
