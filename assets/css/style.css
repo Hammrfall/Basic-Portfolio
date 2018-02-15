@@ -19,7 +19,7 @@ a:hover {
     color: yellow;
 }
 
-}
+
 
 h1, h2, h3, p {
     margin-bottom: 20px;
@@ -79,7 +79,7 @@ h2, h3 {
     line-height: 90px;
     color: #fff;
     font-weight: 700;
-    font-size 30px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ line-height: 5ch;
     padding: 30px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 650 px;
+    max-width: 650px;
     float: left;
     border: 1px solid #ddd;
 }
@@ -157,10 +157,13 @@ line-height: 5ch;
 .description {
         position: relative;
         width: 100%;
-        top: -90px;
+        top: -120px;
         left: 0;
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .6);
         color: rgb(212, 250, 0);
+        padding: 5px;
+        Border-top: 3px solid rgb(212,250,0);
+        Border-bottom: 3px solid rgb(212,250,0); 
     }
 
   #contact-form ul {
@@ -177,7 +180,7 @@ label, input[type=text], input[type=email], textarea{
 input[type=text], input[type=email], textarea{
     height: 40px;
     border: 1px solid #ddd;
-    padding 0 8px;
+    padding: 0 8px;
     font-size: 15px;
 }
 
